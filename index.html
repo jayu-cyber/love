@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Love</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="certificate-container">
+        <div class="certificate">
+            <div class="header">
+                <h1>Certificate of Love</h1>
+                <p>This certifies that the relationship between</p>
+            </div>
+
+            <div class="photo-gallery">
+                <div class="gallery-item item-1">
+                    <img id="img1" src="/Snapchat-960968902.jpg" alt="Photo 1" />
+                    <!-- <div class="over/lay">Click to Upload</div> -->
+                    <input type="file" id="upload1" accept="image/*" hidden onchange="loadImage(event, 'img1')">
+                </div>
+                <div class="gallery-item item-2" >
+                    <img id="img2" src="/Snapchat-13300373.jpg" alt="Photo 2" />
+                    <!-- <div class="overlay">Click to Upload</div> -->
+                    <input type="file" id="upload2" accept="image/*" hidden onchange="loadImage(event, 'img2')">
+                </div>
+                <div class="gallery-item item-4" >
+                    <img id="img4" src="/Snapchat-1779469174.jpg" alt="Photo 4" />
+                    <!-- <div class="overlay">Click to Upload</div> -->
+                    <input type="file" id="upload4" accept="image/*" hidden onchange="loadImage(event, 'img4')">
+                </div>
+                <div class="gallery-item item-5" >
+                    <img id="img5" src="/Snapchat-1998462181.jpg" alt="Photo 5" />
+                    <!-- <div class="overlay">Click to Upload</div> -->
+                    <input type="file" id="upload5" accept="image/*" hidden onchange="loadImage(event, 'img5')">
+                </div>
+                <div class="gallery-item item-3 center-heart" >
+                    <img id="img3" src="/Snapchat-321175276.jpg" alt="Main Photo" />
+                    <!-- <div class="overlay">Click to Upload</div> -->
+                    <input type="file" id="upload3" accept="image/*" hidden onchange="loadImage(event, 'img3')">
+                </div>
+            </div>
+
+            <div class="body-text">
+                <p>Is officially recognized as a bond that defies time, distance, and logic.</p>
+                <p>Celebrating our journey since: 01-01-2026</p>
+            </div>
+
+            <div class="notes-section">
+                <h3>A Promise to You</h3>
+                <div class="romantic-note">
+                    "In a world of billions, my eyes found you, and my heart knew it was home. This certificate is not
+                    just paper; it is a testament to the laughter we share, the challenges we overcome, and the quiet
+                    moments that mean everything. I promise to stand by you, to cheer for you, and to love you more with
+                    every passing day. You are my favorite adventure, my safest place, and my greatest love."
+                </div>
+                <textarea  class="notes-area">We promise to love each other with all our heart and soul, no matter how far apart we are. We promise to be there for you, no matter what life throws our way. You are my everything, and I will always be your everything.</textarea>
+            </div>
+
+            <div class="footer">
+                <div class="signature">
+                    <!-- <input type="text" placeholder="Signature 1" /> -->
+                    <div class="signature-text">Jaykant</div>
+                </div>
+                <div class="seal">
+                    <span>Official<br>Love<br>Seal</span>
+                </div>
+                <div class="signature">
+                    <div class="signature-text">Santoshi</div>
+                    <!-- <input type="text" placeholder="Signature 2" /> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
